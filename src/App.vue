@@ -5,12 +5,16 @@
 		>
 			<pre>{{ config }}</pre>
 		</div>
-		<div class="col-span-1 flex justify-center items-center">Patch…</div>
+		<div class="col-span-1 flex justify-center items-center">
+      <div id="glContainer" style="width: 100%; height: 100%;">
+        <canvas id="glcanvas" style="width: 100%; height: 100%;"></canvas>
+      </div>
+    </div>
 	</div>
 </template>
 
-<script setup lang="ts">
-import { ref } from 'vue';
+<script lang="ts">
+import {ref} from 'vue';
 
 const config = ref({
 	name: 'Standardbar 1,8m',
@@ -728,4 +732,33 @@ const config = ref({
 		},
 	},
 });
+
+export default {
+  name: 'app',
+  mounted() {
+    let cablesJs = document.createElement('script')
+    cablesJs.src = '/js/patch.js';
+    console.log("CONFIG", config._rawValue);
+    cablesJs.onload = () => {
+      CABLES.patch = new CABLES.Patch({
+        patch: CABLES.exportedPatch,
+        variables: {
+          displayConfig: config._rawValue,
+        },
+        glCanvasId: "glcanvas",
+        onError: this.showError,
+        onPatchLoaded: this.patchInitialized,
+        onFinishedLoading: this.patchFinishedLoading,
+      });
+    }
+    document.head.appendChild(cablesJs)
+  },
+  showError(errId, errMsg)
+  {
+    alert("An error occured: " + errId + ", " + errMsg);
+  },
+  patchInitialized() {},
+  patchFinishedLoading() {}
+}
 </script>
+

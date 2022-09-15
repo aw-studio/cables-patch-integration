@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "patchup": "cables -c -h -b -D -a all -d public/ -e 7aSDJ7"
   },
   "dependencies": {
     "@types/node": "^18.7.15",
@@ -18,6 +19,7 @@
     "autoprefixer": "^10.4.8",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8",
-    "vite": "^3.1.0"
-  }
+    "vite": "^3.1.0",
+    "@cables/cables": "0.10.3"
+   }
 }
