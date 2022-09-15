@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "patchup": "cables -c -h -b -D -a all -d public/ -e 7aSDJ7"
+    "patchup": "cables -c -h -b -D -d public/ -e 7aSDJ7"
   },
   "dependencies": {
     "@types/node": "^18.7.15",
