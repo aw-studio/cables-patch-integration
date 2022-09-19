@@ -497,6 +497,7 @@ export default {
 		cablesJs.onload = () => {
 			CABLES.patch = new CABLES.Patch({
 				patch: CABLES.exportedPatch,
+        prefixAssetPath: "/",
 				variables: {
 					displayConfig: config._rawValue,
 				},
