@@ -12,14 +12,15 @@
   "dependencies": {
     "@types/node": "^18.7.15",
     "typescript": "^4.8.2",
-    "vue": "^3.2.37"
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.5"
   },
   "devDependencies": {
+    "@cables/cables": "0.10.3",
     "@vitejs/plugin-vue": "^3.1.0",
     "autoprefixer": "^10.4.8",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8",
-    "vite": "^3.1.0",
-    "@cables/cables": "0.10.3"
-   }
+    "vite": "^3.1.0"
+  }
 }
