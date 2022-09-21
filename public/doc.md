@@ -1,6 +1,5 @@
 ## Patch Variables:
 
-* __branding__ ```Object```
 * __brandings__ ```Array```
 * __configFromApi__ ```Number```
 * __configUrl__ ```String```
