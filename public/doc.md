@@ -6,6 +6,7 @@
 * __configUrl__ ```String```
 * __displayConfig__ ```Object``` (default Value: `null`)
 * __floorImageUrl__ ```String```
+* __glbFileUrl__ ```String```
 * __gridItems__ ```Array```
 * __itemCamPosition__ ```Number```
 * __rotateScene__ ```Number```
