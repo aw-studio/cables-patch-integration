@@ -5,6 +5,7 @@
 * __configFromApi__ ```Number```
 * __configUrl__ ```String```
 * __displayConfig__ ```Object``` (default Value: `null`)
+* __enableFastBlur__ ```Number``` (default Value: `1`)
 * __floorImageUrl__ ```String```
 * __glbFileUrl__ ```String```
 * __gridItems__ ```Array```
@@ -13,4 +14,5 @@
 * __sceneCenterX__ ```Number```
 * __sceneCenterZ__ ```Number```
 * __showGrid__ ```Number```
+* __ssaoAmount__ ```Number``` (default Value: `1`)
 
