@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "patchup": "cables -c -h -b -i -d public/ -e SRTTqm"
+    "patchup": "cables -D -c -h -b -i -d public/ -e SRTTqm"
   },
   "dependencies": {
     "@types/node": "^18.7.15",
