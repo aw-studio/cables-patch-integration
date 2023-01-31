@@ -52,6 +52,8 @@
 * __min distance__ ```Number``` (default Value: `-10`)
 * __min rot x__ ```Number``` (default Value: `0`)
 * __min rot y__ ```Number``` (default Value: `0`)
+* __mouseDragSpeed__ ```Number``` (default Value: `0.005`)
+* __mouseDragSpeed__ ```Number```
 * __orbitPanX__ ```Number```
 * __orbitPanX__ ```Number``` (default Value: `0`)
 * __orbitPanY__ ```Number```
