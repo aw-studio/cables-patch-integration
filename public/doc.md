@@ -28,7 +28,7 @@
 * __defaultOrbitRotX__ ```Number``` (default Value: `-180`)
 * __defaultOrbitRotY__ ```Number``` (default Value: `28`)
 * __defaultOrbitZoom__ ```Number``` (default Value: `-5`)
-* __displayConfig__ ```Object``` (default Value: `null`)
+* __displayConfig__ ```Object```
 * __dragDeltaX__ ```Number```
 * __dragDeltaY__ ```Number```
 * __enableFastBlur__ ```Number```
