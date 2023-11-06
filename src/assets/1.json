@@ -1,0 +1,277 @@
+{
+  "display": {
+    "glbFileUrl": "assets/G-Rack_Master-V2.48.glb",
+    "floorImageUrl": "assets/f_wood.jpg",
+    "gridItems": [
+      {
+        "nodeName": "fx-bm",
+        "gridPosition": {
+          "x": 0,
+          "z": 0
+        },
+        "rotation": 0,
+        "pivot": {
+          "x": 600,
+          "z": 300
+        },
+        "color": "#ffffff",
+        "moduleItems": [
+          {
+            "nodeName": "xx-sc",
+            "modulePosition": {
+              "x": 600,
+              "y": 0,
+              "z": 0
+            },
+            "color": "#ffffff",
+            "rotation": 0,
+            "pivot": 0
+          },
+          {
+            "nodeName": "xx-scl",
+            "modulePosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "color": "#ffffff",
+            "rotation": 0,
+            "pivot": 0
+          }
+        ]
+      },
+      {
+        "nodeName": "xx-cs-1",
+        "gridPosition": {
+          "x": 1200,
+          "z": 0
+        },
+        "rotation": 0,
+        "pivot": {
+          "x": 340,
+          "z": 340
+        },
+        "color": "#ffffff",
+        "moduleItems": [
+          {
+            "nodeName": "rx-ff11",
+            "modulePosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "color": "#ffffff",
+            "rotation": 0
+          },
+          {
+            "nodeName": "rx-ff11",
+            "modulePosition": {
+              "x": 680,
+              "y": 0,
+              "z": -80
+            },
+            "color": "#ffffff",
+            "rotation": 270
+          },
+          {
+            "nodeName": "xx-cs-2",
+            "modulePosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "color": "#ffffff",
+            "rotation": 0,
+            "pivot": 0
+          },
+          {
+            "nodeName": "xx-sc",
+            "modulePosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "color": "#ffffff",
+            "rotation": 0,
+            "pivot": 0
+          },
+          {
+            "nodeName": "xx-sc",
+            "modulePosition": {
+              "x": 680,
+              "y": 0,
+              "z": -80
+            },
+            "color": "#ffffff",
+            "rotation": 270,
+            "pivot": 0
+          },
+          {
+            "nodeName": "xx-cs-3",
+            "modulePosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "color": "#ffffff",
+            "rotation": 0
+          }
+        ]
+      },
+      {
+        "nodeName": "xx-cs-1",
+        "gridPosition": {
+          "x": -680,
+          "z": 0
+        },
+        "rotation": 90,
+        "pivot": {
+          "x": 340,
+          "z": 340
+        },
+        "color": "#ffffff",
+        "moduleItems": [
+          {
+            "nodeName": "rx-ff11",
+            "modulePosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "color": "#ffffff",
+            "rotation": 0
+          },
+          {
+            "nodeName": "rx-ff11",
+            "modulePosition": {
+              "x": 680,
+              "y": 0,
+              "z": -80
+            },
+            "color": "#ffffff",
+            "rotation": 270
+          },
+          {
+            "nodeName": "xx-cs-2",
+            "modulePosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "color": "#ffffff",
+            "rotation": 0,
+            "pivot": 0
+          },
+          {
+            "nodeName": "xx-sc",
+            "modulePosition": {
+              "x": 680,
+              "y": 0,
+              "z": -80
+            },
+            "color": "#ffffff",
+            "rotation": 270,
+            "pivot": 0
+          },
+          {
+            "nodeName": "xx-scl",
+            "modulePosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "color": "#ffffff",
+            "rotation": 0,
+            "pivot": 0
+          },
+          {
+            "nodeName": "xx-cs-3",
+            "modulePosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "color": "#ffffff",
+            "rotation": 0
+          }
+        ]
+      },
+      {
+        "nodeName": "fx-bms",
+        "gridPosition": {
+          "x": -680,
+          "z": -680
+        },
+        "rotation": 90,
+        "pivot": {
+          "x": 300,
+          "z": 300
+        },
+        "color": "#ffffff",
+        "moduleItems": [
+          {
+            "nodeName": "xx-sc",
+            "modulePosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "color": "#ffffff",
+            "rotation": 0,
+            "pivot": 0
+          },
+          {
+            "nodeName": "xx-sc",
+            "modulePosition": {
+              "x": 0,
+              "y": 210,
+              "z": -630
+            },
+            "color": "#ffffff",
+            "rotation": 90,
+            "pivot": 0
+          }
+        ]
+      },
+      {
+        "nodeName": "fx-bms",
+        "gridPosition": {
+          "x": 1280,
+          "z": -680
+        },
+        "rotation": 270,
+        "pivot": {
+          "x": 300,
+          "z": 300
+        },
+        "color": "#ffffff",
+        "moduleItems": [
+          {
+            "nodeName": "xx-sc",
+            "modulePosition": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "color": "#ffffff",
+            "rotation": 0,
+            "pivot": 0
+          },
+          {
+            "nodeName": "xx-sc",
+            "modulePosition": {
+              "x": 600,
+              "y": 210,
+              "z": -30
+            },
+            "color": "#ffffff",
+            "rotation": 270,
+            "pivot": 0
+          }
+        ]
+      }
+    ],
+    "brandings": [],
+    "center": { "x": 900, "z": 300 }
+  }
+}
