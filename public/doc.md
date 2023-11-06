@@ -1,9 +1,7 @@
 ## Patch Variables:
 
 * __backgroundAlpha__ ```Number``` (default Value: `1`)
-* __backgroundAlpha__ ```Number```
 * __backgroundColor__ ```String``` (default Value: `#000000`)
-* __backgroundColor__ ```String```
 * __brandings__ ```Array```
 * __brightness__ ```Number``` (default Value: `0.42`)
 * __camBoom__ ```Number``` (default Value: `0`)
@@ -30,7 +28,9 @@
 * __defaultOrbitRotX__ ```Number``` (default Value: `-180`)
 * __defaultOrbitRotY__ ```Number``` (default Value: `28`)
 * __defaultOrbitZoom__ ```Number``` (default Value: `-5`)
-* __displayConfig__ ```Object``` (default Value: `null`)
+* __displayConfig__ ```Object```
+* __dragDeltaX__ ```Number```
+* __dragDeltaY__ ```Number```
 * __enableFastBlur__ ```Number```
 * __finishedInitialLoading__ ```Number```
 * __floorImageUrl__ ```String```
@@ -53,30 +53,23 @@
 * __min rot x__ ```Number``` (default Value: `0`)
 * __min rot y__ ```Number``` (default Value: `0`)
 * __mouseDragSpeed__ ```Number``` (default Value: `0.005`)
-* __mouseDragSpeed__ ```Number```
 * __orbitPanX__ ```Number```
-* __orbitPanX__ ```Number``` (default Value: `0`)
-* __orbitPanY__ ```Number```
 * __orbitPanY__ ```Number``` (default Value: `-0.5`)
-* __orbitRotX__ ```Number```
 * __orbitRotX__ ```Number``` (default Value: `-180`)
-* __orbitRotY__ ```Number```
 * __orbitRotY__ ```Number``` (default Value: `25`)
-* __orbitZoom__ ```Number```
 * __orbitZoom__ ```Number``` (default Value: `-5`)
+* __panDeltaX__ ```Number```
+* __panDeltaY__ ```Number```
 * __pinchZoom__ ```Number```
 * __sceneCenterX__ ```Number```
 * __sceneCenterZ__ ```Number```
 * __showGrid__ ```Number```
-* __skyboxActive__ ```Number``` (default Value: `0`)
 * __skyboxActive__ ```Number```
 * __skyboxExposure__ ```Number``` (default Value: `1`)
 * __skyboxGamma__ ```Number``` (default Value: `2.2`)
-* __skyboxUrl__ ```String``` (default Value: ``)
 * __skyboxUrl__ ```String```
 * __Smoothness__ ```Number``` (default Value: `8`)
 * __ssaoAmount__ ```Number``` (default Value: `1`)
-* __ssaoAmount__ ```Number```
 * __useSSAO__ ```Number```
 * __wheelDelta__ ```Number```
 
